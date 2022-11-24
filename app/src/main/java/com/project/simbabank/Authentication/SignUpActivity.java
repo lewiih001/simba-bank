@@ -1,10 +1,13 @@
-package com.project.simbabank;
+package com.project.simbabank.Authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.project.simbabank.MainActivity;
+import com.project.simbabank.R;
 
 public class SignUpActivity extends AppCompatActivity {
 

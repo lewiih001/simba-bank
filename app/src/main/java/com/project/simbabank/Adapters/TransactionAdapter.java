@@ -1,4 +1,4 @@
-package com.project.simbabank;
+package com.project.simbabank.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,6 +8,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.project.simbabank.MainActivity;
+import com.project.simbabank.R;
+import com.project.simbabank.Model.TransactionModel;
 
 import java.util.ArrayList;
 

@@ -20,14 +20,10 @@ X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 7
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 {
 Kapp/src/androidTest/java/com/project/simbabank/ExampleInstrumentedTest.java,b\7\b72c8558f88050147a56f042ccc761bf09e773b4
 l
 <app/src/test/java/com/project/simbabank/ExampleUnitTest.java,8\c\8c18c4bf74f2e1f693972e56049e0da1ac9ade5c
-s
-Capp/src/main/java/com/project/simbabank/ForgotPasswordActivity.java,e\0\e0bc4dc4d6ae480b9c508a46bdae9f53e5101d91
 k
 ;app/src/main/java/com/project/simbabank/SignInActivity.java,8\e\8e4c40ae606451ddaff3ccaa1713fdec4dcc9b6d
 k

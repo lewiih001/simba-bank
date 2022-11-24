@@ -1,4 +1,4 @@
-package com.project.simbabank;
+package com.project.simbabank.Model;
 
 public class TransactionModel {
 

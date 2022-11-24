@@ -1,10 +1,13 @@
-package com.project.simbabank;
+package com.project.simbabank.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ProgressBar;
+
+import com.project.simbabank.Authentication.SignInActivity;
+import com.project.simbabank.R;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -35,7 +38,7 @@ public class SplashActivity extends AppCompatActivity {
                     i++;
                 }else {
                     timer.cancel();
-                    startActivity(new Intent(SplashActivity.this,SignInActivity.class));
+                    startActivity(new Intent(SplashActivity.this, SignInActivity.class));
                     finish();
                 }
 

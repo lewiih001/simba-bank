@@ -1,4 +1,4 @@
-package com.project.simbabank;
+package com.project.simbabank.Authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.project.simbabank.Activity.ForgotPasswordActivity;
+import com.project.simbabank.MainActivity;
+import com.project.simbabank.R;
 
 public class SignInActivity extends AppCompatActivity {
     TextView forgotpass;
