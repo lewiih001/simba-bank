@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="2dp"
             android:background="@color/white"
             android:src="@drawable/menu_24"
             app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
             android:id="@+id/notification_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="2dp"
             android:layout_marginEnd="4dp"
             android:background="@color/white"
             android:src="@drawable/notifications_24"
@@ -52,6 +52,18 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/progressBar3"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView6"
@@ -92,7 +104,7 @@
                     android:id="@+id/imageView3"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/chip"
                     app:layout_constraintEnd_toEndOf="@+id/textView"
@@ -103,7 +115,6 @@
                     android:id="@+id/textView5"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="4000 1234 5678 9010"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold"
@@ -125,10 +136,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="5dp"
-                    android:layout_marginBottom="4dp"
-                    android:text="JOHN DOE"
+                    android:layout_marginBottom="2dp"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="25sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/textView6"
                     app:layout_constraintStart_toStartOf="parent" />
@@ -154,6 +164,18 @@
                     app:layout_constraintBottom_toTopOf="@+id/name_txt"
                     app:layout_constraintEnd_toStartOf="@+id/textView6" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:text="Holder's Details"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
@@ -161,7 +183,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/card2"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="90dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
@@ -200,16 +222,29 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
                 <TextView
-                    android:layout_width="118dp"
-                    android:layout_height="23dp"
-                    android:layout_marginTop="8dp"
-                    android:text="KSH 20,000"
+                    android:id="@+id/amount_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="KSH "
                     android:textColor="@color/white"
                     android:textSize="22sp"
                     android:textStyle="bold"
-                    app:layout_constraintEnd_toEndOf="@+id/text_date"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="@+id/text_date"
                     app:layout_constraintTop_toBottomOf="@+id/text_date" />
+
+                <TextView
+                    android:id="@+id/amount_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/amount_txt"
+                    app:layout_constraintStart_toEndOf="@+id/amount_txt"
+                    app:layout_constraintTop_toTopOf="@+id/amount_txt" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -224,25 +259,25 @@
             app:layout_constraintTop_toBottomOf="@+id/card2">
 
             <GridLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginTop="0dp"
-                android:columnCount="2"
-                android:orientation="horizontal"
-                android:columnOrderPreserved="false"
                 android:alignmentMode="alignMargins"
+                android:columnCount="3"
+                android:columnOrderPreserved="false"
+                android:orientation="horizontal"
                 android:rowCount="1">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/c1"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_margin="12dp"
                     app:cardBackgroundColor="@color/blue"
                     app:cardCornerRadius="16dp"
-                    app:cardElevation="4dp">
+                    app:cardElevation="10dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -252,8 +287,8 @@
                         android:padding="16dp">
 
                         <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:src="@drawable/debit" />
 
                         <TextView
@@ -276,7 +311,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/c2"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
@@ -293,8 +328,8 @@
                         android:padding="16dp">
 
                         <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:scaleType="centerCrop"
                             android:src="@drawable/transfer" />
 
@@ -318,7 +353,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/c3"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
@@ -335,8 +370,8 @@
                         android:padding="16dp">
 
                         <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:scaleType="centerCrop"
                             android:src="@drawable/wallet" />
 

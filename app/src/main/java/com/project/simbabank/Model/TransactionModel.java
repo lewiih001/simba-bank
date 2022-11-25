@@ -2,22 +2,25 @@ package com.project.simbabank.Model;
 
 public class TransactionModel {
 
-    String Ttitle;
+    String Title;
     String Amount;
     String Date;
 
-    public TransactionModel(String ttitle, String amount, String date) {
-        Ttitle = ttitle;
+    public TransactionModel() {
+    }
+
+    public TransactionModel(String title, String amount, String date) {
+        Title = title;
         Amount = amount;
         Date = date;
     }
 
-    public String getTtitle() {
-        return Ttitle;
+    public String getTitle() {
+        return Title;
     }
 
-    public void setTtitle(String ttitle) {
-        Ttitle = ttitle;
+    public void setTitle(String title) {
+        Title = title;
     }
 
     public String getAmount() {

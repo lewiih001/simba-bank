@@ -20,7 +20,7 @@ public class TransactionAdapter extends RecyclerView.Adapter<TransactionAdapter.
     Context context;
     ArrayList<TransactionModel>list;
 
-    public TransactionAdapter(Context context, ArrayList<TransactionModel> list, MainActivity mainActivity) {
+    public TransactionAdapter(Context context, ArrayList<TransactionModel> list) {
         this.context = context;
         this.list = list;
     }
@@ -36,7 +36,7 @@ public class TransactionAdapter extends RecyclerView.Adapter<TransactionAdapter.
     public void onBindViewHolder(@NonNull TransactionAdapter.ViewHolder holder, int position) {
         holder.amount.setText(list.get(position).getAmount());
         holder.date.setText(list.get(position).getDate());
-        holder.title.setText(list.get(position).getTtitle());
+        holder.title.setText(list.get(position).getTitle());
 
 
     }

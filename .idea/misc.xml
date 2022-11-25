@@ -3,15 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/SimbaBank/app/src/main/res/drawable-v24/btn_back1.xml" value="0.2115" />
+        <entry key="..\:/SimbaBank/app/src/main/res/layout/activity_deposit.xml" value="0.25" />
         <entry key="..\:/SimbaBank/app/src/main/res/layout/activity_forgot_password.xml" value="0.17255434782608695" />
         <entry key="..\:/SimbaBank/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/SimbaBank/app/src/main/res/layout/activity_money.xml" value="0.16666666666666666" />
+        <entry key="..\:/SimbaBank/app/src/main/res/layout/activity_money.xml" value="0.25" />
         <entry key="..\:/SimbaBank/app/src/main/res/layout/activity_payments.xml" value="0.16666666666666666" />
         <entry key="..\:/SimbaBank/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/SimbaBank/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
         <entry key="..\:/SimbaBank/app/src/main/res/layout/activity_splash.xml" value="0.16485507246376813" />
+        <entry key="..\:/SimbaBank/app/src/main/res/layout/activity_success.xml" value="0.2" />
         <entry key="..\:/SimbaBank/app/src/main/res/layout/activity_transfer.xml" value="0.16666666666666666" />
-        <entry key="..\:/SimbaBank/app/src/main/res/layout/transaction_item.xml" value="0.4188034188034188" />
+        <entry key="..\:/SimbaBank/app/src/main/res/layout/subscriptions_item.xml" value="0.3136" />
+        <entry key="..\:/SimbaBank/app/src/main/res/layout/transaction_item.xml" value="0.33" />
       </map>
     </option>
   </component>
@@ -24,7 +28,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.2" />
+        <option name="scale" value="0.16666666666666666" />
       </ProjectState>
     </option>
   </component>
