@@ -1,8 +1,8 @@
 # Simba-Bank
 This is an android application demonstarting a simple banking application.
 # Screenshots
-<img src="Images/Splash.png" width="200" > <img src="Images/login.png" width="200" >
-<img src="Images/Signup.png" width="200" ><img src="Images/Home.png" width="200" >
+<img src="Images/Splash.png" width="200" > <img src="Images/Signup.png" width="200"
+<img src="Images/subscriptions.png" width="200" ><img src="Images/Home.png" width="200" >
 
 ## Prerequisites
 - Basic Java, Android Studio and Git knowledge, including an installed version of Git.
